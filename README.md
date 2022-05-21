@@ -1,0 +1,10 @@
+- Docker
+- Postgres
+- Node
+- Typescript
+- typeORM / prisma / sequelize
+- GraphQL
+- Vercel / AWS lambdas
+- Github workflow
+- Jest
+- koa
