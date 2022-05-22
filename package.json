@@ -1,0 +1,40 @@
+{
+  "name": "nostark",
+  "version": "0.0.1",
+  "description": "nodejs started kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meddou/NoStark.git"
+  },
+  "author": "meddou",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/meddou/NoStark/issues"
+  },
+  "homepage": "https://github.com/meddou/NoStark#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "@vercel/node": "^1.15.3",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.1"
+  },
+  "lint-staged": {
+    "**/*.ts": [
+      "npm run lint:fix"
+    ]
+  }
+}

@@ -1,10 +1,11 @@
 - Docker
 - Postgres
-- Node
-- Typescript
+OK - Node
+OK - Typescript
 - typeORM / prisma / sequelize
 - GraphQL
-- Vercel / AWS lambdas
+OK - Vercel Serverless
 - Github workflow
 - Jest
-- koa
+OK - eslint
+- husky & lint-staged
