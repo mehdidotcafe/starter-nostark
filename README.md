@@ -8,4 +8,4 @@ OK - Vercel Serverless
 - Github workflow
 - Jest
 OK - eslint
-- husky & lint-staged
+OK - husky & lint-staged
