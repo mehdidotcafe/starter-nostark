@@ -1,11 +1,6 @@
-- Docker
-- Postgres
-OK - Node
-OK - Typescript
-- typeORM / prisma / sequelize
-- GraphQL
-OK - Vercel Serverless
-- Github workflow
+- Node
+- Typescript
+- Vercel Serverless
 - Jest
-OK - eslint
-OK - husky & lint-staged
+- eslint
+- husky & lint-staged

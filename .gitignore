@@ -1,3 +1,10 @@
 /node_modules
 
+# env
 .env
+
+# Jest related
+/converage
+
+# vercel
+.vercel/
